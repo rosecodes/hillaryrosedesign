@@ -1,0 +1,141 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  color: #095256;
+  font-size: 20px;
+}
+
+header {
+  height: 850px;
+}
+
+#projects {
+  height: 1150px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float:left;
+}
+
+.third-width {
+    width: 400px;
+    float:left;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 850px;
+    background-image: url("../images/pink-and-cactus.jpg");
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+.logo {
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/***** PROJECTS *****/
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: #095256;
+  font-size: 28px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.project-img {
+  padding-left: 55px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.twm-logo {
+  padding-left: 80px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #3ab2ab;
+  height: 650px;
+  margin: -35px;
+  padding: 0;
+  color: white;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #32a1b2;
+  height: 350px;
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+}
+
+h5  {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.white-font {
+  color: white;
+}
+
+
+ul li {
+    display: inline-block;
+    padding-right: 50px
+}
